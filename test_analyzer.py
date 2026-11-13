@@ -3,7 +3,7 @@ import pytest
 from analyzer import count_words, count_characters, count_vowels, reverse_text
 
 def test_count_words():
-    assert count_words("Hello World") == 3
+    assert count_words("Hello World") == 2
 
 def test_count_characters():
     assert count_characters("Hello") == 5
